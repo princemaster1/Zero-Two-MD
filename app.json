@@ -2,10 +2,10 @@
   "name": "Zero-Two-Md",
   "description": "A Whatsapp md bot build with nodejs",
   "repository": "https://github.com/sampandey001/Zero-Two-Md",
-  "logo": "https://c4.wallpaperflare.com/wallpaper/885/793/289/anime-darling-in-the-franxx-zero-two-darling-in-the-franxx-wallpaper-preview.jpg",
+  "logo": "https://user-images.githubusercontent.com/104565822/177012232-97866d97-0798-4ca2-9e56-5d0a2413642b.png",
   "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "multi device"],
   "success_url": "/",
-  "stack": "container",
+
 "env": {
   "BOT_NAME": {
   "description": "Name of your bot",
@@ -15,14 +15,13 @@
   "description": "Name of Bot Owner",
       "value": "Ikshwaku Pandey"
   },
-   "SESSION_ID": {
-
-  "description": "Session ID "
-
-  },
   "BOT_OWNER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
        "value": "919628516236"
+  },
+  "OPENAI_API_KEY": {
+    "description": "Put your OPENAI key here.If you don't have just go on beta.openai.com/signup and get your key.",
+       "value": "Paste here"
   },
   "MONGODB_URI": {
     "description": "A secret String for Mongodb Connection.(Required)"
@@ -39,17 +38,21 @@
     "description": "Put Your Sticker Pack Name",
      "value": "Zero-Two",
      "required": false
-       
-    
   }
 },
-
- 
-
-  "buildpacks": [
-                 {
-          "url": "heroku-community/apt"
-      }
+   "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+     "url": "https://github.com/ItsJimi/heroku-buildpack-pm2"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
   ],
   "addons": [
       {

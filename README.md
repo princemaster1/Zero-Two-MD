@@ -12,21 +12,41 @@
   A Moduler WhatsApp Bot designed for both PM and Groups - To take your boring WhatsApp usage into a whole different level.
 
    
-### Looking for NON MD,go there [NON MD ZERO TWO](https://github.com/Fantox001/Zero-Two)
+###  “This Userbot is no longer supported, please consider using [Secktor-MD](https://github.com/CitelVoid/Secktor-Md) instead.”
+
+
+
 ### How to enable Zero-Two On your number
 -   First Open `Github Link Of Zero Two`
--  Click on Fork Button upwards right corner
--  Click on `Scan Qr` button down blew
--  `Open WhatsApp` > `Tap on three dot` > `Linked Devices` > `Link a Device`
--  You'll get `SESSION_ID` in your log number,Keep it safe
--  Click on `Deploy` text in Image down blew 
--  Fill `Config Vars` and SESSION_ID which you acquired before and Tap on `DEPLOY`
--  `Open Heroku` > `choose app` > `Resources` > `Tap on Pencil` and `Turn on Dynos`
--  Bot is Working Now,Enjoy ♥️
+-   Click on Fork Button upwards right corner
+-  Tap Deploy Image down blew and Fill config vars
+-   Tap on Deploy button and wait 1 min
+-   Tap manage and go on `Resources` and turn on web dynos,tap on open app and Scan Qr code from WhatsApp.
+-   After Scanning you can use [Kaffeine](https://kaffeine.herokuapp.com/) or just switch to worker from web.
+-   Bot is Working Now,Enjoy ♥️
 
 - `Thank me later.`
-
-  
+# Main Features of Bot
+- PM Permit (Upcoming)
+- First Whatsapp Bot with `Auto Nsfw detection with percentage`
+- First whatsapp bot with `NLP AI`
+- text to Sticker(like Quotely Telegram Bot)
+- Scribd link unlocker
+- Torrent Search
+- Translator for any language
+- Textmaker
+- Nsfw
+- Group Features
+- Chat Features
+- Switches for Turning NSFW on and off
+- Random Anime
+- Anime, Character Search
+- Reaction Commands like Poke,punch,bonk
+- Mongodb Support
+- YouTube,Fb,Twitter,tiktok downloader
+- iplookup,imdb,sticker,emojimix, ebinary,dbinary
+- And list goes on + adding commands daily + we add requested features too
+- Check usage of Commands by prefix+command help eg- -scribd help
 
   
 [![](https://raw.githubusercontent.com/ZeroTwoInc/Media/main/logo/UPPER.png)](https://ZeroTwoMd.tech/#qrcode)
@@ -42,217 +62,6 @@
 <a href="https://chat.whatsapp.com/Bl2F9UTVU4CBfZU6eVnrbCl"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 ## This bot is mainly created on prefix - if you change this buttons will not work
-
-# List of Commands Available in Zero Two
-  <details>
-  <summary>List (Touch Here)</summary>
-<p>
-
-     🍁 Group Menu 🍁 
-  -  ${prefix}grouplink
-  -  ${prefix}ephemeral [option]
-  -  ${prefix}setgrouppp
-  -  ${prefix}setname [text]
-  -  ${prefix}group [option]
-  -  ${prefix}editinfo [option]
-  -  ${prefix}ginfo
-  -  ${prefix}add @user
-  -  ${prefix}kick @user
-  -  ${prefix}promote @user
-  -  ${prefix}demote @user
-  
-    🍁 Sticker Menu 🍁 
-  -  ${prefix}cry
-  -  ${prefix}lick
-  -  ${prefix}hug
-  -  ${prefix}pat
-  -  ${prefix}bite
-  -  ${prefix}yeet
-  -  ${prefix}bullly
-  -  ${prefix}bonk
-  -  ${prefix}wink
-  -  ${prefix}poke
-  -  ${prefix}slap
-  -  ${prefix}smile
-  -  ${prefix}wave
-  -  ${prefix}awoo
-  -  ${prefix}smug
-  -  ${prefix}glomp
-  -  ${prefix}happy
-  -  ${prefix}cringe
-  -  ${prefix}cuddle
-  -  ${prefix}highfive
-  -  ${prefix}shinobu
-  -  ${prefix}megumin
-  -  ${prefix}handhold
-
-    🍁 Downloader Menu 🍁 
-  -  ${prefix}yt [url/name]
-  -  ${prefix}song [url/name]
-  -  ${prefix}video [url/name]
-  -  ${prefix}play [url/name]
-  -  ${prefix}ytmp3 [url]
-  -  ${prefix}ytmp4 [url]
-  -  ${prefix}fb [url] (beta
-  -  ${prefix}instagram [url]
-  -  ${prefix}twitter [url]
-  -  ${prefix}twittermp3 [url]
-  -  ${prefix}pinterestdl [url]
-  -  ${prefix}getmusic [query]
-  -  ${prefix}getvideo [query]
-  -  ${prefix}umma [url]
-  -  ${prefix}joox [query]
-  -  ${prefix}soundcloud [url]
-  
-    🍁 Search Menu 🍁 
-  -  ${prefix}play [query]
-  -  ${prefix}yts [query]
-  -  ${prefix}google [query]
-  -  ${prefix}gimage [query]
-  -  ${prefix}pinterest [query]
-  -  ${prefix}wallpaper [query]
-  -  ${prefix}ytsearch [query]
-  
-    🍁 Random Menu 🍁 
-  -  ${prefix}coffee
-  -  ${prefix}couplepp
-  -  ${prefix}waifu
-  -  ${prefix}Neko
-  -  ${prefix}HNeko (NSFW)
-  -  ${prefix}bj (NSFW)
-  -  ${prefix}Nwaifu (NSFW)
-  
-    🍁 Fun Menu 🍁 
-  -  ${prefix}couple
-  -  ${prefix}mysoulmate
-  -  ${prefix}math [mode] 
-  -  ${prefix}quiz [mode]
-  
-    🍁 Voice Changer Menu 🍁 
-  -  ${prefix}bass
-  -  ${prefix}blown
-  -  ${prefix}deep
-  -  ${prefix}earrape
-  -  ${prefix}fast
-  -  ${prefix}fat
-  -  ${prefix}nightcore
-  -  ${prefix}reverse
-  -  ${prefix}robot
-  -  ${prefix}slow
-  -  ${prefix}squirrel
-
-    🍁 Text Pro Menu 🍁  (Beta Stage)
-  -  ${prefix}3dchristmas
-  -  ${prefix}candy
-  -  ${prefix}sparklechristmas
-  -  ${prefix}waterpipe
-  -  ${prefix}fiction
-  -  ${prefix}rock
-  -  ${prefix}lava
-  -  ${prefix}honey
-  -  ${prefix}ice
-  -  ${prefix}3ddeepsea
-  -  ${prefix}americanflag
-  -  ${prefix}3dscifi
-  -  ${prefix}3drainbow
-  -  ${prefix}3dwaterpipe
-  -  ${prefix}halloweenskeleton
-  -  ${prefix}sketch
-  -  ${prefix}bluecircuit
-  -  ${prefix}space
-  -  ${prefix}metallic
-  -  ${prefix}fiction
-  -  ${prefix}greenhorror
-  -  ${prefix}transformer
-  -  ${prefix}berry
-  -  ${prefix}thunder
-  -  ${prefix}magma
-  -  ${prefix}3dcrackedstone
-  -  ${prefix}3dneonlight
-  -  ${prefix}impressiveglitch
-  -  ${prefix}naturalleaves
-  -  ${prefix}fireworksparkle
-  -  ${prefix}matrix
-  -  ${prefix}dropwater
-  -  ${prefix}harrypotter
-  -  ${prefix}foggywindow
-  -  ${prefix}neondevils
-  -  ${prefix}christmasholiday
-  -  ${prefix}3dgradient
-  -  ${prefix}blackpink
-  -  ${prefix}gluetext
-  
-    🍁 Horoscope Menu 🍁 
-  -  ${prefix}hockeynumber
-  -  ${prefix}dreammeaning
-  -  ${prefix}namemeaning
-  -  ${prefix}fortunetelling
-  -  ${prefix}marriageprediction
-  -  ${prefix}wife&husband
-  -  ${prefix}fortunetelling2
-  -  ${prefix}matchname
-  -  ${prefix}couplematch
-  -  ${prefix}married
-  -  ${prefix}businessnature
-  -  ${prefix}sustenance
-  -  ${prefix}profession
-  -  ${prefix}fate
-  -  ${prefix}potentialdisease
-  -  ${prefix}tarot
-  -  ${prefix}fengshui
-  -  ${prefix}goodday
-  -  ${prefix}badday
-  -  ${prefix}unluckyday
-  -  ${prefix}dragonday
-  -  ${prefix}sustenance2
-  -  ${prefix}luck
-  -  ${prefix}weton
-  -  ${prefix}character
-  -  ${prefix}luck2
-  -  ${prefix}fishing
-  -  ${prefix}fertiletime
-  -  ${prefix}zodiac
-  -  ${prefix}shio
-
-    🍁 Convert Menu 🍁 
-  -  ${prefix}photo
-  -  ${prefix}imagesticker
-  -  ${prefix}toimg
-  -  ${prefix}removebg
-  -  ${prefix}sticker
-  -  ${prefix}mp3
-  -  ${prefix}mp4audio
-  -  ${prefix}emoji (Beta)
-  -  ${prefix}emojimix (Beta)
-  -  ${prefix}tovideo
-  -  ${prefix}togif
-  -  ${prefix}
-  -  ${prefix}tovn
-  -  ${prefix}ebinary
-  -  ${prefix}dbinary
-  -  ${prefix}styletext
-  -  ${prefix}smeme
-   
-    🍁 Misc Menu 🍁 
-  -  ${prefix}ping
-  -  ${prefix}owner
-  -  ${prefix}donate
-  -  ${prefix}menu / ${prefix}help / ${prefix}?
-  -  ${prefix}delete
-  -  ${prefix}chatinfo
-  -  ${prefix}quoted
-  -  ${prefix}listpc
-  -  ${prefix}listgc
-  -  ${prefix}listonline
-  -  ${prefix}report (report bug to owner)
-  -  ${prefix}repuest (request anything from owner)
-  
-  
-    And A lot More 
-  
-
-</details>
-</p>
 
 
 ### The Hard Method (Not Recommend)
@@ -287,9 +96,9 @@ npm start
 
 ## Developers
 
-[![XEON](https://github.com/dgxeon.png?size=80)](https://github.com/dgxeon) | [![Fantox](https://github.com/fantox001.png?size=100)](https://github.com/fantox001) | [![Sam Pandey](https://github.com/sampandey001.png?size=109)](https://github.com/sampandey001) | [![ISSA](https://github.com/issa2001.png?size=80)](https://github.com/issa2001) | [![Aaditya](https://github.com/addycracker.png?size=80)](https://github.com/addycracker)
+[![XEON](https://github.com/dgxeon.png?size=80)](https://github.com/dgxeon) | [![Fantox](https://github.com/fantox001.png?size=100)](https://github.com/fantox001) | [![Sam Pandey](https://github.com/sampandey001.png?size=109)](https://github.com/sampandey001) | [![ISSA](https://github.com/issa2001.png?size=80)](https://github.com/issa2001) | [![Prince-Mendiratta](https://github.com/Prince-Mendiratta.png?size=80)](https://github.com/Prince-Mendiratta)
 ----|----|----|----|----
-[XEON](https://wa.me/916909137213) | [Fantox](https://wa.me/918101187835) | [Sam Pandey](https://wa.me/919628516236) | [Issa](https://wa.me/254115175696) | [Aditya](https://wa.me/919681777261)
+[XEON](https://wa.me/916909137213) | [Fantox](https://wa.me/918101187835) | [Sam Pandey](https://wa.me/919628516236) | [Issa](https://wa.me/254115175696) | [Prince-Mendiratta](https://wa.me/917838204238)
 Base Bot  | Developer, Bug Fixes, Modules |Developer,Bug Fixes,Base, Modules, | Modules, Idea | Modules
 
 
